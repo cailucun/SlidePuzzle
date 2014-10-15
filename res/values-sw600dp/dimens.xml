@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+	<dimen name="button_width">400dp</dimen>
+    <dimen name="button_height">90sp</dimen>
+    <dimen name="arrow_width">100dp</dimen>
+    <dimen name="arrow_height">120dp</dimen>
+    <dimen name="margin_top">150dp</dimen>
+</resources>

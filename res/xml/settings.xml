@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<ListPreference
+                        android:title="Background Picture"
+                        android:summary="Select a Background Picture"
+                        android:key="pictures"
+                        android:defaultValue="picture1"
+                        android:entries="@array/pictures"
+                        android:entryValues="@array/pictures" />
+
+<ListPreference 		android:title="Scale"
+    					android:summary="Select the Game Scale"
+    					android:key="scales"
+    					android:defaultValue="3*3"
+    					android:entryValues="@array/scales"	 
+    					android:entries="@array/scalehint"/>
+
+<ListPreference 		android:title="Difficulty"
+    					android:summary="Select the Game Difficulty"
+    					android:key="difficulty"
+    					android:defaultValue="Easy"
+    					android:entryValues="@array/difficulty" 
+    					android:entries="@array/difficultyhint"/>
+
+<ListPreference 		android:title="Touch-tone"
+    					android:summary="Play touch tone when moving the chunks"
+    					android:key="touchtone"
+    					android:defaultValue="On"
+    					android:entryValues="@array/touchtone" 
+    					android:entries="@array/touchtone"/>
+
+
+</PreferenceScreen>
